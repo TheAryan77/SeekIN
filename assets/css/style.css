@@ -209,7 +209,13 @@ body.active { overflow: hidden; }
 
 .btn-secondary:is(:hover, :focus-visible) { color: var(--white); }
 
-.w-100 { width: 100%; border-radius: 100%; }
+.w-100 { width: 100%;}
+#mainpic , #reviewerpic{
+  border-radius: 50%;
+}
+#rater{
+  border-radius: 30%;
+}
 
 .section-title { margin-block-end: 20px; }
 
@@ -513,9 +519,6 @@ body.active { overflow: hidden; }
   font-size: var(--fs-10);
   font-weight: var(--fw-500);
   margin-block-end: 5px;
-}
-.author-img{
-  border-radius: 50%;
 }
 
 
